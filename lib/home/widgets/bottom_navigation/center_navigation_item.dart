@@ -17,13 +17,16 @@ class CenterNavigationItem extends StatelessWidget {
         shape: BoxShape.circle,
         color: Colors.pink,
       ),
-      child: const Center(
-        child: Text(
-          "V",
-          style: TextStyle(
-            color: Colors.white,
-            fontSize: 28,
-            fontWeight: FontWeight.bold,
+      child: Center(
+        child: TextButton(
+          onPressed: onPressed,
+          child: const Text(
+            "V",
+            style: TextStyle(
+              color: Colors.white,
+              fontSize: 28,
+              fontWeight: FontWeight.bold,
+            ),
           ),
         ),
       ),
