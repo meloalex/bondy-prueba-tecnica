@@ -31,19 +31,19 @@ class FeedView extends StatelessWidget {
                 ),
                 StoreCard(
                   text: "Meal Plan",
-                  imagePath: 'assets/images/placeholder.jpg',
+                  imagePath: 'assets/images/meal.jpg',
                 ),
                 StoreCard(
                   text: "Supplement Plan",
-                  imagePath: 'assets/images/placeholder.jpg',
+                  imagePath: 'assets/images/placeholder2.jpg',
                 ),
                 StoreCard(
                   text: "Training Plan",
-                  imagePath: 'assets/images/placeholder.jpg',
+                  imagePath: 'assets/images/placeholder3.jpg',
                 ),
                 StoreCard(
                   text: "Extra Plan",
-                  imagePath: 'assets/images/placeholder.jpg',
+                  imagePath: 'assets/images/placeholder4.jpg',
                 ),
               ],
             )
