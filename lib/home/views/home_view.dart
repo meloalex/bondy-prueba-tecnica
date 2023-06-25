@@ -1,3 +1,4 @@
+import 'package:bondy_prueba_tecnica/home/widgets/bottom_navigation/bottom_navigation.dart';
 import 'package:bondy_prueba_tecnica/home/widgets/feed.dart';
 import 'package:bondy_prueba_tecnica/home/widgets/icon_row.dart';
 import 'package:flutter/material.dart';
@@ -27,6 +28,7 @@ class HomeView extends StatelessWidget {
           ),
         ),
       ),
+      bottomNavigationBar: CustomBottomNavigation(),
     );
   }
 }
