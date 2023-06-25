@@ -1,3 +1,4 @@
+import 'package:bondy_prueba_tecnica/home/widgets/bottom_navigation/center_navigation_item.dart';
 import 'package:bondy_prueba_tecnica/home/widgets/bottom_navigation/navigation_item.dart';
 import 'package:flutter/material.dart';
 
@@ -23,6 +24,7 @@ class CustomBottomNavigation extends StatelessWidget {
             label: "Progress",
             onPressed: () {},
           ),
+          const CenterNavigationItem(),
           NavigationItem(
             icon: Icons.store,
             label: "Store",
